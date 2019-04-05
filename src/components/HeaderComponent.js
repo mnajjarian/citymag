@@ -1,9 +1,13 @@
 import React, { useState } from 'react'
-import { Navbar, NavbarBrand, Nav, NavItem, NavLink, NavbarToggler, Collapse  } from 'reactstrap'
+import { Navbar, NavbarBrand, Nav, NavItem, NavLink, NavbarToggler, Collapse, Button  } from 'reactstrap'
+import Login from './LoginComponent';
 
-const Header = () => {
-    const[isOpen, setIsOpen] = useState(false)
-    const toggleNav = () => setIsOpen(!isOpen)
+const Header = (props) => {
+    const[loginIsOpen, setLoginIsOpen] = useState(false)
+    const[navIsOpen, setNavIsOpen] = useState(false)
+    const toggleNav = () => setNavIsOpen(!navIsOpen)
+
+    const toggleLogin = () => setLoginIsOpen(!loginIsOpen)
 
     return (
         <div >
@@ -11,7 +15,7 @@ const Header = () => {
                 <div className='container' >
                     <NavbarToggler onClick={toggleNav} />
                     <NavbarBrand  href='/' >eMag</NavbarBrand>
-                    <Collapse isOpen={isOpen} navbar >
+                    <Collapse isOpen={navIsOpen} navbar >
                         <Nav navbar >
                             <NavItem>
                                 <NavLink className='nav-link' href='/' >Home</NavLink>
@@ -32,9 +36,11 @@ const Header = () => {
                                 <NavLink className='nav-link' href='/'>Contact</NavLink>
                             </NavItem>
                         </Nav>
+                        <Button onClick={toggleLogin} className='ml-auto' ><span className='fa fa-sign-in fa-lg' ></span> Login</Button>
                     </Collapse>
                 </div>
             </Navbar>
+            <Login toggleLogin={toggleLogin} isOpen={loginIsOpen} />
         </div>
     )
 }
