@@ -1,41 +1,44 @@
 import React from 'react'
-import { Switch, Route, Redirect } from 'react-router-dom'
-import { Navbar, NavbarBrand } from 'reactstrap'
-import { NEWS } from '../../shared/news'
+import { Switch, Route } from 'react-router-dom'
+import { NEWS } from '../shared/news'
+import { EVENTS } from '../shared/events'
 import Header from './HeaderComponent'
 import Footer from './FooterComponent'
-import Login from './LoginComponent'
 import Home from './HomeComponent'
+import Events from './Events'
+import Profile from './Profile.js'
 import Subscription from './Subscription'
 
 
 class Main extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            news: NEWS,
-            modalIsOpen: false
-        }
+  constructor(props) {
+    super(props)
+    this.state = {
+      news: NEWS,
+      events: EVENTS,
+      modalIsOpen: false
     }
+  }
 
     toggleModal = () => {
-        this.setState({
-            modalIsOpen: !this.state.modalIsOpen
-        })
+      this.setState({
+        modalIsOpen: !this.state.modalIsOpen
+      })
     }
     render() {
 
-        return(
-            <div>
-                <Header />
-                <Home news={this.state.news.articles}/>
-                <Switch>
-                    <Route path='/login' component={() => <Login />} />
-                </Switch>
-                <Subscription isOpen={this.state.modalIsOpen} toggleModal={this.toggleModal} />
-                <Footer toggleModal={this.toggleModal} />
-            </div>
-        )
+      return(
+        <div>
+          <Header />
+          <Switch>
+            <Route exact path='/' component={() => <Home news={this.state.news.articles}/>} />
+            <Route exact path='/profile' component={Profile} />
+            <Route exact path='/events' component={() => <Events events={this.state.events.data} />} />
+          </Switch>
+          <Subscription isOpen={this.state.modalIsOpen} toggleModal={this.toggleModal} />
+          <Footer toggleModal={this.toggleModal} />
+        </div>
+      )
     }
 }
 

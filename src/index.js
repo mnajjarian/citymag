@@ -5,16 +5,14 @@ import Main from './components/MainComponent'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'font-awesome/css/font-awesome.css'
 import 'bootstrap-social/bootstrap-social.css'
-import './index.css'
+import './index.scss'
 
 const App = () => {
-    return(
-        <div>
-            <BrowserRouter>
-                <Main />
-            </BrowserRouter>
-        </div>
-    )
+  return(
+    <BrowserRouter>
+      <Main />
+    </BrowserRouter>
+  )
 }
 
 ReactDOM.render(<App />, document.getElementById('root'))
