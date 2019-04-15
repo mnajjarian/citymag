@@ -1,6 +1,11 @@
 body {
     font-family: 'Open Sans', 'helvetica neue', sans-serif;
 }
+
+h4 > a {
+    text-decoration: none;
+}
+
 .row-content {
     padding: 50px 0 50px 0;
     margin: 0 auto;

@@ -2,188 +2,21 @@ export const FI_NEWS = {
   Demo: {
     _type: 'News',
     readLink: 'https://api.cognitive.microsoft.com/api/v7/news/search?q=finland',
-    totalEstimatedMatches: 1110000,
+    totalEstimatedMatches: 1060000,
     value: [
       {
         about: [
           {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/370ed614-32e1-4326-a356-dc0a7dd56aaa',
-            name: 'Canada',
-          },
-          {
             readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e',
             name: 'Finland',
           },
           {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/a1365a85-5d7c-4c99-81e4-f61ea404203e',
-            name: 'Gold medal',
-          },
-        ],
-        provider: [
-          {
-            _type: 'Organization',
-            name: 'Yahoo Sports',
-          },
-        ],
-        datePublished: '2019-04-13T16:58:00Z',
-        clusteredArticles: null,
-        mentions: null,
-        video: null,
-        category: 'Sports',
-        name: 'Finland upsets Canada 4-2 to reach gold-medal game at worlds',
-        url: 'https://sports.yahoo.com/finland-upsets-canada-4-2-reach-gold-medal-162714957--nhl.html',
-        description: 'ESPOO, Finland (AP) -- Noora Raty made 43 saves as Finland handed heavily favored Canada its first loss in a semifinal at the women\'s world hockey championship, winning 4-2 on Saturday to advance ...',
-        image: {
-          contentUrl: null,
-          thumbnail: {
-            contentUrl: 'https://www.bing.com/th?id=ON.E423E37D2FA13C8A096D2E7E335EC8F0&pid=News',
-            width: 512,
-            height: 340,
-          },
-        },
-      },
-      {
-        about: [
-          {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e',
-            name: 'Finland',
+            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/4f62b13d-bc30-5133-32ce-be57ca688945',
+            name: 'Allies',
           },
           {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/686f7c0c-a090-ba5a-8ff1-bbfcfda1985e',
-            name: 'Aging',
-          },
-          {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/6d13718b-a368-291d-4b7d-4ff55ece9887',
-            name: 'Climate change',
-          },
-        ],
-        provider: [
-          {
-            _type: 'Organization',
-            name: 'ABC News',
-          },
-        ],
-        datePublished: '2019-04-13T08:37:00Z',
-        clusteredArticles: null,
-        mentions: null,
-        video: null,
-        category: 'World',
-        name: 'Finland\'s election topics: Climate change, welfare, aging',
-        url: 'https://abcnews.go.com/International/wireStory/finlands-election-topics-climate-change-welfare-aging-62374997',
-        description: 'Finns will be voting Sunday to fill the country\'s 200-seat Eduskunta parliament after a campaign that saw debates over the country\'s generous welfare model, its rapidly aging population and how ...',
-        image: {
-          contentUrl: null,
-          thumbnail: {
-            contentUrl: 'https://www.bing.com/th?id=ON.E5325A69AC003C2364240CE960828747&pid=News',
-            width: 700,
-            height: 393,
-          },
-        },
-      },
-      {
-        about: [
-          {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/46f889b5-7a7e-1845-e282-e21cc84b3b6b',
-            name: 'Hysteria',
-          },
-          {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e',
-            name: 'Finland',
-          },
-          {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/accff6a8-3045-c2ba-ebcd-469bf66b8df0',
-            name: 'Climate',
-          },
-        ],
-        provider: [
-          {
-            _type: 'Organization',
-            name: 'nytimes.com',
-          },
-        ],
-        datePublished: '2019-04-13T02:42:00Z',
-        clusteredArticles: null,
-        mentions: null,
-        video: null,
-        category: 'World',
-        name: 'The Right’s New Rallying Cry in Finland: ‘Climate Hysteria’',
-        url: 'https://www.nytimes.com/2019/04/12/world/europe/finland-populism-immigration-climate-change.html',
-        description: 'HELSINKI, Finland — When they really wanted to rile up conservative voters this spring, the politicians from Finland’s nationalist party made a beeline for the rawest subject in this year’s general election. No, not immigration. Climate. As Finland ...',
-        image: {
-          contentUrl: null,
-          thumbnail: {
-            contentUrl: 'https://www.bing.com/th?id=ON.F72BED87D53E289F024BF77F0FD46F55&pid=News',
-            width: 700,
-            height: 366,
-          },
-        },
-      },
-      {
-        about: [
-          {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e',
-            name: 'Finland',
-          },
-          {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/859224cd-e42b-f3a6-8a76-16f0d7990d10',
-            name: 'Opposition to immigration',
-          },
-          {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/474ee994-4318-cabd-e8e9-53c8f69ad522',
-            name: 'Upset',
-          },
-        ],
-        provider: [
-          {
-            _type: 'Organization',
-            name: 'AFP on MSN.com',
-          },
-        ],
-        datePublished: '2019-04-13T01:00:00Z',
-        clusteredArticles: null,
-        mentions: [
-          {
-            name: 'Finland',
-          },
-          {
-            name: 'Opposition to immigration',
-          },
-          {
-            name: 'Upset',
-          },
-        ],
-        video: {
-          name: 'Anti-immigration: Finland\'s populists eye an election upset',
-          thumbnailUrl: null,
-          allowHttpsEmbed: false,
-          thumbnail: {
-            contentUrl: null,
-            width: 640,
-            height: 360,
-          },
-        },
-        category: null,
-        name: 'Anti-immigration: Finland\'s populists eye an election upset',
-        url: 'https://www.msn.com/en-us/video/news/anti-immigration-finlands-populists-eye-an-election-upset/vi-BBVTVxg',
-        description: 'In the remote, northern Finnish town of Oulu where he has lived for seven years, Syrian-born Jabo Waleed started feeling recently that some people\'s behaviour towards him was becoming less welcoming. I can honestly say it\'s not like before," Waleed told ...',
-        image: {
-          contentUrl: null,
-          thumbnail: {
-            contentUrl: 'https://www.bing.com/th?id=ON.237DA09D8E180298E5898C100C72DF30&pid=News',
-            width: 600,
-            height: 315,
-          },
-        },
-      },
-      {
-        about: [
-          {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e',
-            name: 'Finland',
-          },
-          {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/599e96eb-d236-4624-b29d-70f60edfb4a4',
-            name: 'Election',
+            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/b3dc7b3d-cc71-396a-9da7-0b1266b1c118',
+            name: 'Coalition',
           },
         ],
         provider: [
@@ -192,22 +25,15 @@ export const FI_NEWS = {
             name: 'Yahoo News',
           },
         ],
-        datePublished: '2019-04-13T04:05:00Z',
+        datePublished: '2019-04-15T11:34:00Z',
         clusteredArticles: null,
         mentions: null,
         video: null,
         category: 'World',
-        name: 'Finland populists eye election upset as anti-immigrant feeling rises',
-        url: 'https://news.yahoo.com/finland-populists-eye-election-upset-anti-immigrant-feeling-040529796.html',
-        description: 'Oulu (Finland) (AFP) - In the remote, northern Finnish town of Oulu where he has lived for seven years, Syrian-born Jabo Waleed recently started feeling that some people\'s behaviour towards him was becoming less welcoming. "My wife is Finnish, I have lots ...',
-        image: {
-          contentUrl: null,
-          thumbnail: {
-            contentUrl: 'https://www.bing.com/th?id=ON.EEF94C7FFE10102EC5C39DFCDB1159A5&pid=News',
-            width: 700,
-            height: 450,
-          },
-        },
+        name: 'Finland\'s Social Democrats seek coalition allies as political landscape fragments',
+        url: 'https://news.yahoo.com/finlands-social-democrats-seek-coalition-allies-political-landscape-113443512.html',
+        description: 'HELSINKI (Reuters) - Finland\'s Social Democrats (SDP) embarked on Monday on the complex task of forming a governing coalition, after beating a nationalist, anti-immigration party by a hairsbreadth in the most fragmented election in the country\'s history.',
+        image: null,
       },
       {
         about: [
@@ -219,10 +45,6 @@ export const FI_NEWS = {
             readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e',
             name: 'Finland',
           },
-          {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/b1b06237-d255-9f27-31bf-b526ea6393a8',
-            name: 'Turn Left, Turn Right',
-          },
         ],
         provider: [
           {
@@ -230,7 +52,7 @@ export const FI_NEWS = {
             name: 'Bloomberg L.P.',
           },
         ],
-        datePublished: '2019-04-13T03:00:00Z',
+        datePublished: '2019-04-15T09:28:00Z',
         clusteredArticles: null,
         mentions: [
           {
@@ -240,51 +62,58 @@ export const FI_NEWS = {
             name: 'Finland',
           },
           {
-            name: 'Turn Left, Turn Right',
+            name: 'Election',
           },
         ],
         video: null,
         category: 'World',
-        name: 'Finland Poised for Rare Turn Left as Election Race Tightens',
-        url: 'https://www.bloomberg.com/news/articles/2019-04-13/finland-poised-for-rare-turn-left-as-election-race-tightens',
-        description: 'Finland is about to take a step to the left, a rare occurrence in Europe’s recent political history, with the Social Democratic Party favored to emerge as the biggest after Sunday’s election. Latest polls show the SDP holding on to a narrowing lead ...',
-        image: null,
+        name: 'Finland’s Nail-Biter Election Sets Stage for Tough Talks',
+        url: 'https://www.bloomberg.com/news/articles/2019-04-15/finland-s-nail-biter-election-sets-stage-for-tough-talks-q-a',
+        description: 'Finland has had its closest election result in 60 years, handing victory to the Social Democrats with a margin of just 6,813 votes over the nationalist Finns Party. The conservative National Coalition came in a close third, while the Green League posted ...',
+        image: {
+          contentUrl: null,
+          thumbnail: {
+            contentUrl: 'https://www.bing.com/th?id=ON.80BA591E5C9BD29706FAA0BAA8292DF7&pid=News',
+            width: 150,
+            height: 112,
+          },
+        },
       },
       {
         about: [
           {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/464fb034-73f4-c9f8-e203-856ac089ecdd',
-            name: 'Canoe, British Columbia',
-          },
-          {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/370ed614-32e1-4326-a356-dc0a7dd56aaa',
-            name: 'Canada',
+            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/95eaa328-0afc-e6cc-c997-bd1703bcd4c9',
+            name: 'Riding',
           },
           {
             readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e',
             name: 'Finland',
           },
+          {
+            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/4f3a88a7-cd26-1604-8cf6-080ab8947688',
+            name: 'Finns Party',
+          },
         ],
         provider: [
           {
             _type: 'Organization',
-            name: 'Canoe.com',
+            name: 'sfgate.com',
           },
         ],
-        datePublished: '2019-04-13T18:46:00Z',
+        datePublished: '2019-04-15T16:37:00Z',
         clusteredArticles: null,
         mentions: null,
         video: null,
-        category: 'Sports',
-        name: 'Finland upsets Canada at women\'s world hockey championship semifinal',
-        url: 'https://canoe.com/sports/hockey/finland-upsets-canada-at-womens-world-hockey-championship-semifinal',
-        description: 'ESPOO, Finland — Canada won’t play for gold at the women’s world hockey championship for the first time in tournament history. Finland earned a stunning 4-2 semifinal win over Canada on Saturday. The Finns will play for gold on home ice Sunday ...',
+        category: 'World',
+        name: 'Riding populist wave, Finns Party nearly wins Finland vote',
+        url: 'https://www.sfgate.com/news/world/article/Finland-s-center-left-Social-Democrats-narrowly-13767543.php',
+        description: 'HELSINKI (AP) — Riding a wave of populism across Europe and campaigning to slow down Finland\'s efforts to fight climate change, the euroskeptic Finns Party came within 6,800 votes of winning the country\'s parliamentary election — a result that smashed ...',
         image: {
           contentUrl: null,
           thumbnail: {
-            contentUrl: 'https://www.bing.com/th?id=ON.40351CD9C18DE2B9038B97BC1602C152&pid=News',
+            contentUrl: 'https://www.bing.com/th?id=ON.3E98354E778F43034F7DE9F059A421A5&pid=News',
             width: 700,
-            height: 525,
+            height: 460,
           },
         },
       },
@@ -293,32 +122,32 @@ export const FI_NEWS = {
         provider: [
           {
             _type: 'Organization',
-            name: 'International Business Times',
+            name: 'Sports Illustrated',
           },
         ],
-        datePublished: '2019-04-12T12:27:00Z',
+        datePublished: '2019-04-15T12:34:00Z',
         clusteredArticles: null,
         mentions: null,
         video: {
-          name: 'Kourtney Kardashian Shares Racy Jacuzzi Photo From Finland Trip',
-          thumbnailUrl: 'https://www.bing.com/th?id=ON.6AFD4DAB64A9626F94C75FF0DA1261FB&pid=News',
+          name: 'Monday’s Hot Clicks: Finland Got Straight-Up Robbed of Its First World Women’s Hockey Championship',
+          thumbnailUrl: 'https://www.bing.com/th?id=ON.CD82AF34A81F5F1C4EFC4FB10ADCE768&pid=News',
           allowHttpsEmbed: false,
           thumbnail: {
             contentUrl: null,
             width: 480,
-            height: 320,
+            height: 250,
           },
         },
-        category: 'Entertainment',
-        name: 'Kourtney Kardashian Shares Racy Jacuzzi Photo From Finland Trip',
-        url: 'https://www.ibtimes.com/kourtney-kardashian-shares-racy-jacuzzi-photo-finland-trip-2785165',
-        description: 'Kourtney Kardashian’s birthday is still a few days away, but the reality star had taken her children to Finland a few days back to celebrate the occasion a little early. The “Keeping Up With the Kardashian” star has now shared a new photo from her ...',
+        category: 'Sports',
+        name: 'Monday’s Hot Clicks: Finland Got Straight-Up Robbed of Its First World Women’s Hockey Championship',
+        url: 'https://www.si.com/extra-mustard/2019/04/15/monday-hot-clicks-usa-finland-iihf-world-championship-controversy-video',
+        description: 'The puck hit the back of the net with eight minutes left in overtime and the Finnish women’s hockey team tossed its helmets and gloves on the ice to celebrate its first-ever world championship, dogpiling along the boards in the biggest celebration of ...',
         image: {
           contentUrl: null,
           thumbnail: {
-            contentUrl: 'https://www.bing.com/th?id=ON.943D99204DF5C342B181450AC2416F56&pid=News',
+            contentUrl: 'https://www.bing.com/th?id=ON.CD82AF34A81F5F1C4EFC4FB10ADCE768&pid=News',
             width: 700,
-            height: 466,
+            height: 365,
           },
         },
       },
@@ -329,40 +158,40 @@ export const FI_NEWS = {
             name: 'Finland',
           },
           {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/370ed614-32e1-4326-a356-dc0a7dd56aaa',
-            name: 'Canada',
+            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/9f9fc105-5efe-7344-2f48-63b96f28a5e7',
+            name: 'Social Democratic Party',
           },
         ],
         provider: [
           {
             _type: 'Organization',
-            name: 'The Canadian Press on MSN.com',
+            name: 'The Guardian on MSN.com',
           },
         ],
-        datePublished: '2019-04-13T17:22:49Z',
+        datePublished: '2019-04-15T10:13:22Z',
         clusteredArticles: null,
         mentions: [
           {
             name: 'Finland',
           },
           {
-            name: 'Canada',
+            name: 'Social Democratic Party',
           },
           {
-            name: 'Championship',
+            name: 'Election',
           },
         ],
         video: null,
-        category: 'Sports',
-        name: 'Finland upsets Canada 4-2, will play for women\'s world hockey championship gold',
-        url: 'https://www.msn.com/en-ca/news/other/finland-upsets-canada-4-2-will-play-for-womens-world-hockey-championship-gold/ar-BBVUom8',
-        description: 'ESPOO, Finland — Canada won\'t play for gold at the women\'s world hockey championship for the first time in tournament history. Finland earned a stunning 4-2 semifinal win over Canada on Saturday. The Finns will play for gold on home ice Sunday ...',
+        category: null,
+        name: 'Finland\'s SDP tries to build coalition after narrow election win',
+        url: 'https://www.msn.com/en-gb/news/world/finlands-sdp-tries-to-build-coalition-after-narrow-election-win/ar-BBVX522',
+        description: 'Finland’s Social Democrats will try to form a coalition government after a narrow win in parliamentary elections that saw left-leaning parties make sweeping gains, despite a stronger than expected showing from the far right. The centre-left SDP, led by ...',
         image: {
           contentUrl: null,
           thumbnail: {
-            contentUrl: 'https://www.bing.com/th?id=ON.80387C879EF02FD36DBDB5A6C2454C2E&pid=News',
-            width: 600,
-            height: 315,
+            contentUrl: 'https://www.bing.com/th?id=ON.21D7DB993D892C3FEAD43EBB224505FA&pid=News',
+            width: 700,
+            height: 367,
           },
         },
       },
@@ -373,12 +202,145 @@ export const FI_NEWS = {
             name: 'Finland',
           },
           {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/c64e8304-46af-4e50-a5e8-729262d5bedb',
-            name: 'Hotspot',
+            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/f57d616b-b94b-8ea4-037c-0d51371d3083',
+            name: 'National Hockey League',
+          },
+        ],
+        provider: [
+          {
+            _type: 'Organization',
+            name: 'Sporting News',
+          },
+        ],
+        datePublished: '2019-04-15T02:28:00Z',
+        clusteredArticles: null,
+        mentions: [
+          {
+            name: 'Finland',
           },
           {
-            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/4904da29-4b21-18de-16d5-562d9426bc5c',
-            name: 'Suicide',
+            name: 'National Hockey League',
+          },
+          {
+            name: 'Women\'s World Championship',
+          },
+        ],
+        video: {
+          name: 'Women\'s World Championship 2019: USA wins gold after controversial OT decision denies Finland',
+          thumbnailUrl: 'https://www.bing.com/th?id=ON.595DC8157E7C2A52643B5EC25B3F29B7&pid=News',
+          allowHttpsEmbed: false,
+          thumbnail: {
+            contentUrl: null,
+            width: 480,
+            height: 270,
+          },
+        },
+        category: 'Sports',
+        name: 'Women\'s World Championship 2019: USA wins gold after controversial OT decision denies Finland',
+        url: 'http://www.sportingnews.com/us/nhl/news/womens-world-championship-2019-usa-wins-gold-in-shootout-after-controversial-ot-call-denies-finland/13ilhexn540at1c8xdx7gyg8bg',
+        description: 'Team USA won its fifth straight gold medal at the IIHF Women\'s World Championship on Sunday, but controversy reigned in the final moments. The Americans were taken to the limit by host country Finland, which had already shocked the hockey world by ...',
+        image: {
+          contentUrl: null,
+          thumbnail: {
+            contentUrl: 'https://www.bing.com/th?id=ON.595DC8157E7C2A52643B5EC25B3F29B7&pid=News',
+            width: 700,
+            height: 393,
+          },
+        },
+      },
+      {
+        about: [
+          {
+            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e',
+            name: 'Finland',
+          },
+        ],
+        provider: [
+          {
+            _type: 'Organization',
+            name: 'Yahoo Sports',
+          },
+        ],
+        datePublished: '2019-04-15T14:07:00Z',
+        clusteredArticles: null,
+        mentions: null,
+        video: null,
+        category: 'Sports',
+        name: 'Team USA wins gold after controversial ruling takes goal away from Finland',
+        url: 'https://sports.yahoo.com/team-usa-wins-gold-at-world-championships-after-controversial-ruling-takes-ot-goal-from-finland-135844899.html',
+        description: 'The U.S. Women’s National Hockey Team won its fifth straight gold medal at the IIHF World Championships, knocking off Finland 2-1 on Sunday. But it wasn’t without some controversy. Finland ...',
+        image: {
+          contentUrl: null,
+          thumbnail: {
+            contentUrl: 'https://www.bing.com/th?id=ON.4EDBECFD4E1B58C97915A56E837BF183&pid=News',
+            width: 700,
+            height: 465,
+          },
+        },
+      },
+      {
+        about: null,
+        provider: [
+          {
+            _type: 'Organization',
+            name: 'Fox News',
+          },
+        ],
+        datePublished: '2019-04-15T08:56:00Z',
+        clusteredArticles: null,
+        mentions: null,
+        video: null,
+        category: 'Politics',
+        name: 'Finland\'s center-left Social Democrats narrowly top poll',
+        url: 'https://www.foxnews.com/world/finlands-center-left-social-democrats-narrowly-top-poll',
+        description: 'HELSINKI – Finland\'s center-left Social Democratic Party is facing the tough task of trying to form a government coalition after becoming the Nordic country\'s largest party by an extremely narrow margin following Sunday\'s highly fragmented parliamentary ...',
+        image: {
+          contentUrl: null,
+          thumbnail: {
+            contentUrl: 'https://www.bing.com/th?id=ON.519A1CF6F0DECFC2AA8FDD0C8F0B287D&pid=News',
+            width: 348,
+            height: 196,
+          },
+        },
+      },
+      {
+        about: null,
+        provider: [
+          {
+            _type: 'Organization',
+            name: 'The Globe and Mail',
+          },
+        ],
+        datePublished: '2019-04-14T22:02:00Z',
+        clusteredArticles: null,
+        mentions: null,
+        video: null,
+        category: 'Sports',
+        name: 'U.S. beats Finland in shootout for women’s world championship gold after OT controversy',
+        url: 'https://www.theglobeandmail.com/sports/hockey/article-us-beats-finland-in-shootout-for-womens-world-championship-gold/',
+        description: 'Alex Rigsby stopped four of five shots in the shootout and the United States beat Finland 2-1 to win its fifth consecutive gold medal at the women’s world championship Sunday after a questionable goaltender interference review wiped what would have been ...',
+        image: {
+          contentUrl: null,
+          thumbnail: {
+            contentUrl: 'https://www.bing.com/th?id=ON.EC4F9027F9ADF37C232F772C00C51AC0&pid=News',
+            width: 620,
+            height: 413,
+          },
+        },
+      },
+      {
+        about: [
+          {
+            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e',
+            name: 'Finland',
+          },
+          {
+            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/b3dc7b3d-cc71-396a-9da7-0b1266b1c118',
+            name: 'Coalition',
+          },
+          {
+            readLink: 'https://api.cognitive.microsoft.com/api/v7/entities/4d602825-d655-e61d-bebe-33f488c1df06',
+            name: 'Left–right politics',
           },
         ],
         provider: [
@@ -387,18 +349,18 @@ export const FI_NEWS = {
             name: 'Yahoo News',
           },
         ],
-        datePublished: '2019-04-13T04:00:00Z',
+        datePublished: '2019-04-15T09:24:00Z',
         clusteredArticles: null,
         mentions: null,
         video: null,
-        category: null,
-        name: 'Finland: from suicide hotspot to world\'s happiest country',
-        url: 'https://news.yahoo.com/finland-suicide-hotspot-worlds-happiest-country-040015506.html',
-        description: 'Vantaa (Finland) (AFP) - When the UN crowned Finland the world\'s happiest nation last month for the second year running, there were still quite a few eyebrows raised. How could this Nordic country, better known for its harsh weather and high suicide rate ...',
+        category: 'World',
+        name: 'Finland eyes left-right coalition to keep populists out',
+        url: 'https://news.yahoo.com/finland-eyes-left-coalition-keep-populists-092438097.html',
+        description: 'Helsinki (AFP) - Finns can expect a broad, ineffective coalition government for the next four years as the Social Democrats, who narrowly won weekend elections, focus on keeping the surging anti-immigration populists out, analysts said. The polls were ...',
         image: {
           contentUrl: null,
           thumbnail: {
-            contentUrl: 'https://www.bing.com/th?id=ON.56EB368BFBCF20C986464128D9299C70&pid=News',
+            contentUrl: 'https://www.bing.com/th?id=ON.9AB6BF458EBF3FC997E5278176DC2595&pid=News',
             width: 700,
             height: 466,
           },
@@ -406,12 +368,15 @@ export const FI_NEWS = {
       },
     ],
   },
-  RawJson: '{\r\n  "_type": "News",\r\n  "readLink": "https://api.cognitive.microsoft.com/api/v7/news/search?q=finland",\r\n  "totalEstimatedMatches": 1110000,\r\n  "value": [\r\n    {\r\n      "about": [\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/370ed614-32e1-4326-a356-dc0a7dd56aaa",\r\n          "name": "Canada"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e",\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/a1365a85-5d7c-4c99-81e4-f61ea404203e",\r\n          "name": "Gold medal"\r\n        }\r\n      ],\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "Yahoo Sports"\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-13T16:58:00Z",\r\n      "clusteredArticles": null,\r\n      "mentions": null,\r\n      "video": null,\r\n      "category": "Sports",\r\n      "name": "Finland upsets Canada 4-2 to reach gold-medal game at worlds",\r\n      "url": "https://sports.yahoo.com/finland-upsets-canada-4-2-reach-gold-medal-162714957--nhl.html",\r\n      "description": "ESPOO, Finland (AP) -- Noora Raty made 43 saves as Finland handed heavily favored Canada its first loss in a semifinal at the women\'s world hockey championship, winning 4-2 on Saturday to advance ...",\r\n      "image": {\r\n        "contentUrl": null,\r\n        "thumbnail": {\r\n          "contentUrl": "https://www.bing.com/th?id=ON.E423E37D2FA13C8A096D2E7E335EC8F0&pid=News",\r\n          "width": 512,\r\n          "height": 340\r\n        }\r\n      }\r\n    },\r\n    {\r\n      "about": [\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e",\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/686f7c0c-a090-ba5a-8ff1-bbfcfda1985e",\r\n          "name": "Aging"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/6d13718b-a368-291d-4b7d-4ff55ece9887",\r\n          "name": "Climate change"\r\n        }\r\n      ],\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "ABC News"\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-13T08:37:00Z",\r\n      "clusteredArticles": null,\r\n      "mentions": null,\r\n      "video": null,\r\n      "category": "World",\r\n      "name": "Finland\'s election topics: Climate change, welfare, aging",\r\n      "url": "https://abcnews.go.com/International/wireStory/finlands-election-topics-climate-change-welfare-aging-62374997",\r\n      "description": "Finns will be voting Sunday to fill the country\'s 200-seat Eduskunta parliament after a campaign that saw debates over the country\'s generous welfare model, its rapidly aging population and how ...",\r\n      "image": {\r\n        "contentUrl": null,\r\n        "thumbnail": {\r\n          "contentUrl": "https://www.bing.com/th?id=ON.E5325A69AC003C2364240CE960828747&pid=News",\r\n          "width": 700,\r\n          "height": 393\r\n        }\r\n      }\r\n    },\r\n    {\r\n      "about": [\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/46f889b5-7a7e-1845-e282-e21cc84b3b6b",\r\n          "name": "Hysteria"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e",\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/accff6a8-3045-c2ba-ebcd-469bf66b8df0",\r\n          "name": "Climate"\r\n        }\r\n      ],\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "nytimes.com"\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-13T02:42:00Z",\r\n      "clusteredArticles": null,\r\n      "mentions": null,\r\n      "video": null,\r\n      "category": "World",\r\n      "name": "The Right’s New Rallying Cry in Finland: ‘Climate Hysteria’",\r\n      "url": "https://www.nytimes.com/2019/04/12/world/europe/finland-populism-immigration-climate-change.html",\r\n      "description": "HELSINKI, Finland — When they really wanted to rile up conservative voters this spring, the politicians from Finland’s nationalist party made a beeline for the rawest subject in this year’s general election. No, not immigration. Climate. As Finland ...",\r\n      "image": {\r\n        "contentUrl": null,\r\n        "thumbnail": {\r\n          "contentUrl": "https://www.bing.com/th?id=ON.F72BED87D53E289F024BF77F0FD46F55&pid=News",\r\n          "width": 700,\r\n          "height": 366\r\n        }\r\n      }\r\n    },\r\n    {\r\n      "about": [\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e",\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/859224cd-e42b-f3a6-8a76-16f0d7990d10",\r\n          "name": "Opposition to immigration"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/474ee994-4318-cabd-e8e9-53c8f69ad522",\r\n          "name": "Upset"\r\n        }\r\n      ],\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "AFP on MSN.com"\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-13T01:00:00Z",\r\n      "clusteredArticles": null,\r\n      "mentions": [\r\n        {\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "name": "Opposition to immigration"\r\n        },\r\n        {\r\n          "name": "Upset"\r\n        }\r\n      ],\r\n      "video": {\r\n        "name": "Anti-immigration: Finland\'s populists eye an election upset",\r\n        "thumbnailUrl": null,\r\n        "allowHttpsEmbed": false,\r\n        "thumbnail": {\r\n          "contentUrl": null,\r\n          "width": 640,\r\n          "height": 360\r\n        }\r\n      },\r\n      "category": null,\r\n      "name": "Anti-immigration: Finland\'s populists eye an election upset",\r\n      "url": "https://www.msn.com/en-us/video/news/anti-immigration-finlands-populists-eye-an-election-upset/vi-BBVTVxg",\r\n      "description": "In the remote, northern Finnish town of Oulu where he has lived for seven years, Syrian-born Jabo Waleed started feeling recently that some people\'s behaviour towards him was becoming less welcoming. I can honestly say it\'s not like before,\\" Waleed told ...",\r\n      "image": {\r\n        "contentUrl": null,\r\n        "thumbnail": {\r\n          "contentUrl": "https://www.bing.com/th?id=ON.237DA09D8E180298E5898C100C72DF30&pid=News",\r\n          "width": 600,\r\n          "height": 315\r\n        }\r\n      }\r\n    },\r\n    {\r\n      "about": [\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e",\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/599e96eb-d236-4624-b29d-70f60edfb4a4",\r\n          "name": "Election"\r\n        }\r\n      ],\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "Yahoo News"\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-13T04:05:00Z",\r\n      "clusteredArticles": null,\r\n      "mentions": null,\r\n      "video": null,\r\n      "category": "World",\r\n      "name": "Finland populists eye election upset as anti-immigrant feeling rises",\r\n      "url": "https://news.yahoo.com/finland-populists-eye-election-upset-anti-immigrant-feeling-040529796.html",\r\n      "description": "Oulu (Finland) (AFP) - In the remote, northern Finnish town of Oulu where he has lived for seven years, Syrian-born Jabo Waleed recently started feeling that some people\'s behaviour towards him was becoming less welcoming. \\"My wife is Finnish, I have lots ...",\r\n      "image": {\r\n        "contentUrl": null,\r\n        "thumbnail": {\r\n          "contentUrl": "https://www.bing.com/th?id=ON.EEF94C7FFE10102EC5C39DFCDB1159A5&pid=News",\r\n          "width": 700,\r\n          "height": 450\r\n        }\r\n      }\r\n    },\r\n    {\r\n      "about": [\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/79464325-4ebf-5477-3c6f-975a3cb4d4a4",\r\n          "name": "Michael Bloomberg"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e",\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/b1b06237-d255-9f27-31bf-b526ea6393a8",\r\n          "name": "Turn Left, Turn Right"\r\n        }\r\n      ],\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "Bloomberg L.P."\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-13T03:00:00Z",\r\n      "clusteredArticles": null,\r\n      "mentions": [\r\n        {\r\n          "name": "Michael Bloomberg"\r\n        },\r\n        {\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "name": "Turn Left, Turn Right"\r\n        }\r\n      ],\r\n      "video": null,\r\n      "category": "World",\r\n      "name": "Finland Poised for Rare Turn Left as Election Race Tightens",\r\n      "url": "https://www.bloomberg.com/news/articles/2019-04-13/finland-poised-for-rare-turn-left-as-election-race-tightens",\r\n      "description": "Finland is about to take a step to the left, a rare occurrence in Europe’s recent political history, with the Social Democratic Party favored to emerge as the biggest after Sunday’s election. Latest polls show the SDP holding on to a narrowing lead ...",\r\n      "image": null\r\n    },\r\n    {\r\n      "about": [\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/464fb034-73f4-c9f8-e203-856ac089ecdd",\r\n          "name": "Canoe, British Columbia"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/370ed614-32e1-4326-a356-dc0a7dd56aaa",\r\n          "name": "Canada"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e",\r\n          "name": "Finland"\r\n        }\r\n      ],\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "Canoe.com"\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-13T18:46:00Z",\r\n      "clusteredArticles": null,\r\n      "mentions": null,\r\n      "video": null,\r\n      "category": "Sports",\r\n      "name": "Finland upsets Canada at women\'s world hockey championship semifinal",\r\n      "url": "https://canoe.com/sports/hockey/finland-upsets-canada-at-womens-world-hockey-championship-semifinal",\r\n      "description": "ESPOO, Finland — Canada won’t play for gold at the women’s world hockey championship for the first time in tournament history. Finland earned a stunning 4-2 semifinal win over Canada on Saturday. The Finns will play for gold on home ice Sunday ...",\r\n      "image": {\r\n        "contentUrl": null,\r\n        "thumbnail": {\r\n          "contentUrl": "https://www.bing.com/th?id=ON.40351CD9C18DE2B9038B97BC1602C152&pid=News",\r\n          "width": 700,\r\n          "height": 525\r\n        }\r\n      }\r\n    },\r\n    {\r\n      "about": null,\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "International Business Times"\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-12T12:27:00Z",\r\n      "clusteredArticles": null,\r\n      "mentions": null,\r\n      "video": {\r\n        "name": "Kourtney Kardashian Shares Racy Jacuzzi Photo From Finland Trip",\r\n        "thumbnailUrl": "https://www.bing.com/th?id=ON.6AFD4DAB64A9626F94C75FF0DA1261FB&pid=News",\r\n        "allowHttpsEmbed": false,\r\n        "thumbnail": {\r\n          "contentUrl": null,\r\n          "width": 480,\r\n          "height": 320\r\n        }\r\n      },\r\n      "category": "Entertainment",\r\n      "name": "Kourtney Kardashian Shares Racy Jacuzzi Photo From Finland Trip",\r\n      "url": "https://www.ibtimes.com/kourtney-kardashian-shares-racy-jacuzzi-photo-finland-trip-2785165",\r\n      "description": "Kourtney Kardashian’s birthday is still a few days away, but the reality star had taken her children to Finland a few days back to celebrate the occasion a little early. The “Keeping Up With the Kardashian” star has now shared a new photo from her ...",\r\n      "image": {\r\n        "contentUrl": null,\r\n        "thumbnail": {\r\n          "contentUrl": "https://www.bing.com/th?id=ON.943D99204DF5C342B181450AC2416F56&pid=News",\r\n          "width": 700,\r\n          "height": 466\r\n        }\r\n      }\r\n    },\r\n    {\r\n      "about": [\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e",\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/370ed614-32e1-4326-a356-dc0a7dd56aaa",\r\n          "name": "Canada"\r\n        }\r\n      ],\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "The Canadian Press on MSN.com"\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-13T17:22:49Z",\r\n      "clusteredArticles": null,\r\n      "mentions": [\r\n        {\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "name": "Canada"\r\n        },\r\n        {\r\n          "name": "Championship"\r\n        }\r\n      ],\r\n      "video": null,\r\n      "category": "Sports",\r\n      "name": "Finland upsets Canada 4-2, will play for women\'s world hockey championship gold",\r\n      "url": "https://www.msn.com/en-ca/news/other/finland-upsets-canada-4-2-will-play-for-womens-world-hockey-championship-gold/ar-BBVUom8",\r\n      "description": "ESPOO, Finland — Canada won\'t play for gold at the women\'s world hockey championship for the first time in tournament history. Finland earned a stunning 4-2 semifinal win over Canada on Saturday. The Finns will play for gold on home ice Sunday ...",\r\n      "image": {\r\n        "contentUrl": null,\r\n        "thumbnail": {\r\n          "contentUrl": "https://www.bing.com/th?id=ON.80387C879EF02FD36DBDB5A6C2454C2E&pid=News",\r\n          "width": 600,\r\n          "height": 315\r\n        }\r\n      }\r\n    },\r\n    {\r\n      "about": [\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e",\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/c64e8304-46af-4e50-a5e8-729262d5bedb",\r\n          "name": "Hotspot"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/4904da29-4b21-18de-16d5-562d9426bc5c",\r\n          "name": "Suicide"\r\n        }\r\n      ],\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "Yahoo News"\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-13T04:00:00Z",\r\n      "clusteredArticles": null,\r\n      "mentions": null,\r\n      "video": null,\r\n      "category": null,\r\n      "name": "Finland: from suicide hotspot to world\'s happiest country",\r\n      "url": "https://news.yahoo.com/finland-suicide-hotspot-worlds-happiest-country-040015506.html",\r\n      "description": "Vantaa (Finland) (AFP) - When the UN crowned Finland the world\'s happiest nation last month for the second year running, there were still quite a few eyebrows raised. How could this Nordic country, better known for its harsh weather and high suicide rate ...",\r\n      "image": {\r\n        "contentUrl": null,\r\n        "thumbnail": {\r\n          "contentUrl": "https://www.bing.com/th?id=ON.56EB368BFBCF20C986464128D9299C70&pid=News",\r\n          "width": 700,\r\n          "height": 466\r\n        }\r\n      }\r\n    }\r\n  ]\r\n}',
+  RawJson: '{\r\n  "_type": "News",\r\n  "readLink": "https://api.cognitive.microsoft.com/api/v7/news/search?q=finland",\r\n  "totalEstimatedMatches": 1060000,\r\n  "value": [\r\n    {\r\n      "about": [\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e",\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/4f62b13d-bc30-5133-32ce-be57ca688945",\r\n          "name": "Allies"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/b3dc7b3d-cc71-396a-9da7-0b1266b1c118",\r\n          "name": "Coalition"\r\n        }\r\n      ],\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "Yahoo News"\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-15T11:34:00Z",\r\n      "clusteredArticles": null,\r\n      "mentions": null,\r\n      "video": null,\r\n      "category": "World",\r\n      "name": "Finland\'s Social Democrats seek coalition allies as political landscape fragments",\r\n      "url": "https://news.yahoo.com/finlands-social-democrats-seek-coalition-allies-political-landscape-113443512.html",\r\n      "description": "HELSINKI (Reuters) - Finland\'s Social Democrats (SDP) embarked on Monday on the complex task of forming a governing coalition, after beating a nationalist, anti-immigration party by a hairsbreadth in the most fragmented election in the country\'s history.",\r\n      "image": null\r\n    },\r\n    {\r\n      "about": [\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/79464325-4ebf-5477-3c6f-975a3cb4d4a4",\r\n          "name": "Michael Bloomberg"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e",\r\n          "name": "Finland"\r\n        }\r\n      ],\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "Bloomberg L.P."\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-15T09:28:00Z",\r\n      "clusteredArticles": null,\r\n      "mentions": [\r\n        {\r\n          "name": "Michael Bloomberg"\r\n        },\r\n        {\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "name": "Election"\r\n        }\r\n      ],\r\n      "video": null,\r\n      "category": "World",\r\n      "name": "Finland’s Nail-Biter Election Sets Stage for Tough Talks",\r\n      "url": "https://www.bloomberg.com/news/articles/2019-04-15/finland-s-nail-biter-election-sets-stage-for-tough-talks-q-a",\r\n      "description": "Finland has had its closest election result in 60 years, handing victory to the Social Democrats with a margin of just 6,813 votes over the nationalist Finns Party. The conservative National Coalition came in a close third, while the Green League posted ...",\r\n      "image": {\r\n        "contentUrl": null,\r\n        "thumbnail": {\r\n          "contentUrl": "https://www.bing.com/th?id=ON.80BA591E5C9BD29706FAA0BAA8292DF7&pid=News",\r\n          "width": 150,\r\n          "height": 112\r\n        }\r\n      }\r\n    },\r\n    {\r\n      "about": [\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/95eaa328-0afc-e6cc-c997-bd1703bcd4c9",\r\n          "name": "Riding"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e",\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/4f3a88a7-cd26-1604-8cf6-080ab8947688",\r\n          "name": "Finns Party"\r\n        }\r\n      ],\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "sfgate.com"\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-15T16:37:00Z",\r\n      "clusteredArticles": null,\r\n      "mentions": null,\r\n      "video": null,\r\n      "category": "World",\r\n      "name": "Riding populist wave, Finns Party nearly wins Finland vote",\r\n      "url": "https://www.sfgate.com/news/world/article/Finland-s-center-left-Social-Democrats-narrowly-13767543.php",\r\n      "description": "HELSINKI (AP) — Riding a wave of populism across Europe and campaigning to slow down Finland\'s efforts to fight climate change, the euroskeptic Finns Party came within 6,800 votes of winning the country\'s parliamentary election — a result that smashed ...",\r\n      "image": {\r\n        "contentUrl": null,\r\n        "thumbnail": {\r\n          "contentUrl": "https://www.bing.com/th?id=ON.3E98354E778F43034F7DE9F059A421A5&pid=News",\r\n          "width": 700,\r\n          "height": 460\r\n        }\r\n      }\r\n    },\r\n    {\r\n      "about": null,\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "Sports Illustrated"\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-15T12:34:00Z",\r\n      "clusteredArticles": null,\r\n      "mentions": null,\r\n      "video": {\r\n        "name": "Monday’s Hot Clicks: Finland Got Straight-Up Robbed of Its First World Women’s Hockey Championship",\r\n        "thumbnailUrl": "https://www.bing.com/th?id=ON.CD82AF34A81F5F1C4EFC4FB10ADCE768&pid=News",\r\n        "allowHttpsEmbed": false,\r\n        "thumbnail": {\r\n          "contentUrl": null,\r\n          "width": 480,\r\n          "height": 250\r\n        }\r\n      },\r\n      "category": "Sports",\r\n      "name": "Monday’s Hot Clicks: Finland Got Straight-Up Robbed of Its First World Women’s Hockey Championship",\r\n      "url": "https://www.si.com/extra-mustard/2019/04/15/monday-hot-clicks-usa-finland-iihf-world-championship-controversy-video",\r\n      "description": "The puck hit the back of the net with eight minutes left in overtime and the Finnish women’s hockey team tossed its helmets and gloves on the ice to celebrate its first-ever world championship, dogpiling along the boards in the biggest celebration of ...",\r\n      "image": {\r\n        "contentUrl": null,\r\n        "thumbnail": {\r\n          "contentUrl": "https://www.bing.com/th?id=ON.CD82AF34A81F5F1C4EFC4FB10ADCE768&pid=News",\r\n          "width": 700,\r\n          "height": 365\r\n        }\r\n      }\r\n    },\r\n    {\r\n      "about": [\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e",\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/9f9fc105-5efe-7344-2f48-63b96f28a5e7",\r\n          "name": "Social Democratic Party"\r\n        }\r\n      ],\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "The Guardian on MSN.com"\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-15T10:13:22Z",\r\n      "clusteredArticles": null,\r\n      "mentions": [\r\n        {\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "name": "Social Democratic Party"\r\n        },\r\n        {\r\n          "name": "Election"\r\n        }\r\n      ],\r\n      "video": null,\r\n      "category": null,\r\n      "name": "Finland\'s SDP tries to build coalition after narrow election win",\r\n      "url": "https://www.msn.com/en-gb/news/world/finlands-sdp-tries-to-build-coalition-after-narrow-election-win/ar-BBVX522",\r\n      "description": "Finland’s Social Democrats will try to form a coalition government after a narrow win in parliamentary elections that saw left-leaning parties make sweeping gains, despite a stronger than expected showing from the far right. The centre-left SDP, led by ...",\r\n      "image": {\r\n        "contentUrl": null,\r\n        "thumbnail": {\r\n          "contentUrl": "https://www.bing.com/th?id=ON.21D7DB993D892C3FEAD43EBB224505FA&pid=News",\r\n          "width": 700,\r\n          "height": 367\r\n        }\r\n      }\r\n    },\r\n    {\r\n      "about": [\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e",\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/f57d616b-b94b-8ea4-037c-0d51371d3083",\r\n          "name": "National Hockey League"\r\n        }\r\n      ],\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "Sporting News"\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-15T02:28:00Z",\r\n      "clusteredArticles": null,\r\n      "mentions": [\r\n        {\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "name": "National Hockey League"\r\n        },\r\n        {\r\n          "name": "Women\'s World Championship"\r\n        }\r\n      ],\r\n      "video": {\r\n        "name": "Women\'s World Championship 2019: USA wins gold after controversial OT decision denies Finland",\r\n        "thumbnailUrl": "https://www.bing.com/th?id=ON.595DC8157E7C2A52643B5EC25B3F29B7&pid=News",\r\n        "allowHttpsEmbed": false,\r\n        "thumbnail": {\r\n          "contentUrl": null,\r\n          "width": 480,\r\n          "height": 270\r\n        }\r\n      },\r\n      "category": "Sports",\r\n      "name": "Women\'s World Championship 2019: USA wins gold after controversial OT decision denies Finland",\r\n      "url": "http://www.sportingnews.com/us/nhl/news/womens-world-championship-2019-usa-wins-gold-in-shootout-after-controversial-ot-call-denies-finland/13ilhexn540at1c8xdx7gyg8bg",\r\n      "description": "Team USA won its fifth straight gold medal at the IIHF Women\'s World Championship on Sunday, but controversy reigned in the final moments. The Americans were taken to the limit by host country Finland, which had already shocked the hockey world by ...",\r\n      "image": {\r\n        "contentUrl": null,\r\n        "thumbnail": {\r\n          "contentUrl": "https://www.bing.com/th?id=ON.595DC8157E7C2A52643B5EC25B3F29B7&pid=News",\r\n          "width": 700,\r\n          "height": 393\r\n        }\r\n      }\r\n    },\r\n    {\r\n      "about": [\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e",\r\n          "name": "Finland"\r\n        }\r\n      ],\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "Yahoo Sports"\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-15T14:07:00Z",\r\n      "clusteredArticles": null,\r\n      "mentions": null,\r\n      "video": null,\r\n      "category": "Sports",\r\n      "name": "Team USA wins gold after controversial ruling takes goal away from Finland",\r\n      "url": "https://sports.yahoo.com/team-usa-wins-gold-at-world-championships-after-controversial-ruling-takes-ot-goal-from-finland-135844899.html",\r\n      "description": "The U.S. Women’s National Hockey Team won its fifth straight gold medal at the IIHF World Championships, knocking off Finland 2-1 on Sunday. But it wasn’t without some controversy. Finland ...",\r\n      "image": {\r\n        "contentUrl": null,\r\n        "thumbnail": {\r\n          "contentUrl": "https://www.bing.com/th?id=ON.4EDBECFD4E1B58C97915A56E837BF183&pid=News",\r\n          "width": 700,\r\n          "height": 465\r\n        }\r\n      }\r\n    },\r\n    {\r\n      "about": null,\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "Fox News"\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-15T08:56:00Z",\r\n      "clusteredArticles": null,\r\n      "mentions": null,\r\n      "video": null,\r\n      "category": "Politics",\r\n      "name": "Finland\'s center-left Social Democrats narrowly top poll",\r\n      "url": "https://www.foxnews.com/world/finlands-center-left-social-democrats-narrowly-top-poll",\r\n      "description": "HELSINKI – Finland\'s center-left Social Democratic Party is facing the tough task of trying to form a government coalition after becoming the Nordic country\'s largest party by an extremely narrow margin following Sunday\'s highly fragmented parliamentary ...",\r\n      "image": {\r\n        "contentUrl": null,\r\n        "thumbnail": {\r\n          "contentUrl": "https://www.bing.com/th?id=ON.519A1CF6F0DECFC2AA8FDD0C8F0B287D&pid=News",\r\n          "width": 348,\r\n          "height": 196\r\n        }\r\n      }\r\n    },\r\n    {\r\n      "about": null,\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "The Globe and Mail"\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-14T22:02:00Z",\r\n      "clusteredArticles": null,\r\n      "mentions": null,\r\n      "video": null,\r\n      "category": "Sports",\r\n      "name": "U.S. beats Finland in shootout for women’s world championship gold after OT controversy",\r\n      "url": "https://www.theglobeandmail.com/sports/hockey/article-us-beats-finland-in-shootout-for-womens-world-championship-gold/",\r\n      "description": "Alex Rigsby stopped four of five shots in the shootout and the United States beat Finland 2-1 to win its fifth consecutive gold medal at the women’s world championship Sunday after a questionable goaltender interference review wiped what would have been ...",\r\n      "image": {\r\n        "contentUrl": null,\r\n        "thumbnail": {\r\n          "contentUrl": "https://www.bing.com/th?id=ON.EC4F9027F9ADF37C232F772C00C51AC0&pid=News",\r\n          "width": 620,\r\n          "height": 413\r\n        }\r\n      }\r\n    },\r\n    {\r\n      "about": [\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/ceea53a9-734c-46c7-a9f7-185e7cf6826e",\r\n          "name": "Finland"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/b3dc7b3d-cc71-396a-9da7-0b1266b1c118",\r\n          "name": "Coalition"\r\n        },\r\n        {\r\n          "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/4d602825-d655-e61d-bebe-33f488c1df06",\r\n          "name": "Left–right politics"\r\n        }\r\n      ],\r\n      "provider": [\r\n        {\r\n          "_type": "Organization",\r\n          "name": "Yahoo News"\r\n        }\r\n      ],\r\n      "datePublished": "2019-04-15T09:24:00Z",\r\n      "clusteredArticles": null,\r\n      "mentions": null,\r\n      "video": null,\r\n      "category": "World",\r\n      "name": "Finland eyes left-right coalition to keep populists out",\r\n      "url": "https://news.yahoo.com/finland-eyes-left-coalition-keep-populists-092438097.html",\r\n      "description": "Helsinki (AFP) - Finns can expect a broad, ineffective coalition government for the next four years as the Social Democrats, who narrowly won weekend elections, focus on keeping the surging anti-immigration populists out, analysts said. The polls were ...",\r\n      "image": {\r\n        "contentUrl": null,\r\n        "thumbnail": {\r\n          "contentUrl": "https://www.bing.com/th?id=ON.9AB6BF458EBF3FC997E5278176DC2595&pid=News",\r\n          "width": 700,\r\n          "height": 466\r\n        }\r\n      }\r\n    }\r\n  ]\r\n}',
   QueryString: null,
   Query: null,
   Market: 'en-us',
   Freshness: null,
 }
+
+
+
 export const NEWS = {
   status: 'ok',
   totalResults: 38,

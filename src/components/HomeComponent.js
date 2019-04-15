@@ -1,20 +1,26 @@
 import React from 'react'
-import { Container, Row, Col , Card, CardBody, CardHeader, CardImg,
+import { Container, Row, Col , Card, CardBody, CardHeader, CardImg, Media,
   CardLink, CardSubtitle, CardTitle, CardText } from 'reactstrap'
 
 const Home = (props) => {
-// console.log(news)
+  const fiNews = props.finews.filter(n => n.image !== null)
+  console.log(fiNews)
   return(
     <Container>
       <Row>
         <Col md={8} >
-          {props.news.map(p =>
+          {/*{props.news.map(p =>
             <RenderCard key={p.url} news={p} />
-          )}
+          )}*/}
+          <div className='bg-light p-2'>
+            {fiNews.map(p =>
+              <FiNews key={p.name}  news={p} />
+            )}
+          </div>
         </Col>
         <Col>
           <Weather />
-          <TravelCard />
+
         </Col>
       </Row>
     </Container>
@@ -32,11 +38,19 @@ const Weather = () => {
   )
 }
 
-const TravelCard = () => {
+const FiNews = ({ news }) => {
+
   return(
-    <Card>
-      <CardBody></CardBody>
-    </Card>
+    <Media className=' m-3' >
+      <Media left middle href={news.url}   >
+        <Media className='rounded mr-3' object src={news.image.thumbnail.contentUrl} alt={news.name}  />
+      </Media>
+      <Media className='mt-0 mb-1' body>
+        <Media heading ><a style={{ textDecoration: 'none' }} rel='noopener noreferrer' target='_blank' href={news.url} >{news.name}</a></Media>
+        {news.description}
+      </Media>
+      <hr />
+    </Media>
   )
 }
 

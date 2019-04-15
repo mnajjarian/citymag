@@ -1,6 +1,6 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import { NEWS } from '../shared/news'
+import { NEWS, FI_NEWS } from '../shared/news'
 import { EVENTS } from '../shared/events'
 import Header from './HeaderComponent'
 import Footer from './FooterComponent'
@@ -15,6 +15,7 @@ class Main extends React.Component {
     super(props)
     this.state = {
       news: NEWS,
+      finews: FI_NEWS,
       events: EVENTS,
       modalIsOpen: false
     }
@@ -31,7 +32,7 @@ class Main extends React.Component {
         <div>
           <Header />
           <Switch>
-            <Route exact path='/' component={() => <Home news={this.state.news.articles}/>} />
+            <Route exact path='/' component={() => <Home news={this.state.news.articles} finews={this.state.finews.Demo.value} />} />
             <Route exact path='/profile' component={Profile} />
             <Route exact path='/events' component={() => <Events events={this.state.events.data} />} />
           </Switch>
