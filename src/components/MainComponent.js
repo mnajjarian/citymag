@@ -1,7 +1,6 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import { NEWS, FI_NEWS } from '../shared/news'
-import { EVENTS } from '../shared/events'
+import { connect } from 'react-redux'
 import Header from './HeaderComponent'
 import Footer from './FooterComponent'
 import Home from './HomeComponent'
@@ -9,14 +8,17 @@ import Events from './Events'
 import Profile from './Profile.js'
 import Subscription from './Subscription'
 
-
+const mapStateToProps = (state) => {
+  return {
+    news: state.news,
+    finews: state.finews,
+    events: state.events
+  }
+}
 class Main extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      news: NEWS,
-      finews: FI_NEWS,
-      events: EVENTS,
       modalIsOpen: false
     }
   }
@@ -32,9 +34,9 @@ class Main extends React.Component {
         <div>
           <Header />
           <Switch>
-            <Route exact path='/' component={() => <Home news={this.state.news.articles} finews={this.state.finews.Demo.value} />} />
+            <Route exact path='/' component={() => <Home news={this.props.news.articles} finews={this.props.finews.Demo.value} />} />
             <Route exact path='/profile' component={Profile} />
-            <Route exact path='/events' component={() => <Events events={this.state.events.data} />} />
+            <Route exact path='/events' component={() => <Events events={this.props.events.data} />} />
           </Switch>
           <Subscription isOpen={this.state.modalIsOpen} toggleModal={this.toggleModal} />
           <Footer toggleModal={this.toggleModal} />
@@ -43,4 +45,6 @@ class Main extends React.Component {
     }
 }
 
-export default Main
+export default connect(
+  mapStateToProps
+)(Main)
