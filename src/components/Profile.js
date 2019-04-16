@@ -3,8 +3,10 @@ import { Container, Row, Col, Nav,
   NavItem, NavLink, Card, CardHeader, CardImg, CardBody, CardTitle, Form,
   FormGroup, Label, Input, Button, TabContent, TabPane } from 'reactstrap'
 import classnames from 'classnames'
+import EventRender from './EventRender'
 
-const Profile = () => {
+const Profile = (props) => {
+  console.log(props.events)
   const[activeTab, setActiveTab] = useState('1')
   const toggleTab = (tab) => activeTab !== tab ? setActiveTab(tab) : null
   return(
@@ -17,6 +19,13 @@ const Profile = () => {
               <CardImg className='rounded-circle' src={require('../assets/img/img.jpeg')} />
               <CardTitle className='text-center mt-2' >Mahdi Najjarian</CardTitle>
               <Nav pills vertical  >
+                <NavItem>
+                  <NavLink
+                    className={classnames({ active: activeTab === '0' })}
+                    onClick={() => toggleTab('0')} >
+                    Events
+                  </NavLink>
+                </NavItem>
                 <NavItem  >
                   <NavLink className={classnames({ active: activeTab === '1' })}
                     onClick={() => toggleTab('1')}
@@ -37,6 +46,11 @@ const Profile = () => {
         </Col>
         <Col md={8} >
           <TabContent activeTab={activeTab} >
+            <TabPane tabId='0'>
+              {props.events.map(e =>
+                <EventRender key={e.id} events={e}  />
+              )}
+            </TabPane>
             <TabPane tabId='1' >
               <Setting />
             </TabPane>
@@ -48,6 +62,10 @@ const Profile = () => {
       </Row>
     </Container>
   )
+}
+
+const bookmarkEvents = (props) => {
+  return
 }
 
 const Setting = () => {

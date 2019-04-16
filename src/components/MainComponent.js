@@ -1,6 +1,7 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import { connect } from 'react-redux'
+import { bookmark } from '../redux/actionCreators'
 import Header from './HeaderComponent'
 import Footer from './FooterComponent'
 import Home from './HomeComponent'
@@ -13,6 +14,12 @@ const mapStateToProps = (state) => {
     news: state.news,
     finews: state.finews,
     events: state.events
+  }
+}
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    bookmark: (eventId) => dispatch(bookmark(eventId))
   }
 }
 class Main extends React.Component {
@@ -29,14 +36,13 @@ class Main extends React.Component {
       })
     }
     render() {
-
       return(
         <div>
           <Header />
           <Switch>
             <Route exact path='/' component={() => <Home news={this.props.news.articles} finews={this.props.finews.Demo.value} />} />
-            <Route exact path='/profile' component={Profile} />
-            <Route exact path='/events' component={() => <Events events={this.props.events.data} />} />
+            <Route exact path='/profile' component={() => <Profile events={this.props.events.bookmarks} />} />
+            <Route exact path='/events' component={() => <Events events={this.props.events.events.data} bookmark={this.props.events.bookmark} />} />
           </Switch>
           <Subscription isOpen={this.state.modalIsOpen} toggleModal={this.toggleModal} />
           <Footer toggleModal={this.toggleModal} />
@@ -46,5 +52,6 @@ class Main extends React.Component {
 }
 
 export default connect(
-  mapStateToProps
+  mapStateToProps,
+  mapDispatchToProps
 )(Main)
