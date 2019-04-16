@@ -1,10 +1,15 @@
-import { createStore } from 'redux'
-import { Reducer, initialState } from './reducers'
+import { createStore, combineReducers } from 'redux'
+import { Finews } from './finews'
+import { Events } from './events'
+import { News } from './news'
 
 export const ConfigureStore = () => {
   const store = createStore(
-    Reducer,
-    initialState
+    combineReducers({
+      finews: Finews,
+      events: Events,
+      news: News
+    })
   )
   return store
 }
