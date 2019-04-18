@@ -64,9 +64,6 @@ const Profile = (props) => {
   )
 }
 
-const bookmarkEvents = (props) => {
-  return
-}
 
 const Setting = () => {
   return(

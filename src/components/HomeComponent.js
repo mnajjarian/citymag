@@ -1,30 +1,38 @@
 import React from 'react'
 import { Container, Row, Col , Card, CardBody, CardHeader, CardImg, Media,
   CardLink, CardSubtitle, CardTitle, CardText } from 'reactstrap'
+import { Loading } from './Loading'
 
 const Home = (props) => {
-  const fiNews = props.finews.filter(n => n.image !== null)
-  console.log(fiNews)
-  return(
-    <Container>
-      <Row>
-        <Col md={8} >
-          {/*{props.news.map(p =>
+  if(props.finewsLoading) {
+    return(
+      <Loading />
+    )
+  } else if(props.finewsErrMess) {
+    return(
+      <h4>{props.finewsErrMess}</h4>
+    )
+  } else
+    return(
+      <Container>
+        <Row>
+          <Col md={8} >
+            {/*{props.news.map(p =>
             <RenderCard key={p.url} news={p} />
           )}*/}
-          <div className='bg-light p-2'>
-            {fiNews.map(p =>
-              <FiNews key={p.name}  news={p} />
-            )}
-          </div>
-        </Col>
-        <Col>
-          <Weather />
+            <div className='bg-light p-2'>
+              {props.finews.map(p =>
+                <FiNews key={p.name}  news={p} />
+              )}
+            </div>
+          </Col>
+          <Col>
+            <Weather />
 
-        </Col>
-      </Row>
-    </Container>
-  )
+          </Col>
+        </Row>
+      </Container>
+    )
 }
 
 const Weather = () => {

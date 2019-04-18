@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardBody, CardImg, CardHeader, CardText, CardTitle, CardSubtitle, CardLink, Button } from 'reactstrap'
+import { Card, CardBody, CardImg, CardText, CardTitle, CardSubtitle, CardLink, Button } from 'reactstrap'
 
 const EventRender = ({ event, bookmark }) => {
   const handleClick = (eventId) => () => {
@@ -12,7 +12,7 @@ const EventRender = ({ event, bookmark }) => {
     }
     return e.map( e => e.url)[0]
   }
-  const isFree = (e) => e.map(e => e.is_free)[0]
+  //const isFree = (e) => e.map(e => e.is_free)[0]
   //const eventName = (e) => e.map(e => e.en ? e.en : e.fi)
   //console.log(isFree(event.offers))
   return(
