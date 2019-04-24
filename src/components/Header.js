@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {
   Navbar, NavbarBrand, Nav, NavItem, NavLink, NavbarToggler, Collapse, Button
 } from 'reactstrap'
-import Login from './LoginComponent'
+import Login from './Login'
 
 const Header = () => {
   const [loginIsOpen, setLoginIsOpen] = useState(false)
